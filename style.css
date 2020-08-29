@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    background-color: rgb(47, 47, 47);
+}
+
+.fluid {
+    transition: 1s;
+}
+
+.container-base {
+    position: relative;
+    left: 15vw;
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+
+.container-logo {
+    margin-right: 2vw;
+}
+
+.container-logo a{
+    color: white;
+}
+
+.search-icon{
+    display: none;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    height: 30px;
+    width: 30vw;
+}
+
+.input-btn {
+    height: 2em;
+}
+
+.input-group input {
+    border: 1px solid;
+    border-radius: 3px 0 0 3px;
+    border-right: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-btn button {
+    background: white;
+    border: 1px solid;
+    border-radius: 0 3px 3px 0;
+    border-left: 0;
+    height: 95%;
+    cursor: pointer;
+    padding: 4px;
+    margin-left: -1px;
+}
+
+.input-btn img {
+    height: 100%;
+}
+
+.side-nav {
+    width: 100%;
+    max-width: 300px;
+    background-color: black;
+    color: white;
+}
+
+.side-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-nav li {
+    width: 50%;
+    list-style-type: none;
+}
+
+.side-nav h4 {
+    background-color: red;
+    height: 30px;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    width: 70%;
+}
+
+.menu {
+    display: flex;
+    background-color: blue;
+}
+
+.menu p{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menuactive {
+    background-color: red;
+}
+
+.arrow {
+    width: 100%;
+    height: 35px;
+    background-color: blue;
+}
+
+.arrow img {
+    float: right;
+    width: 30px;
+}
